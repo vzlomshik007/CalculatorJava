@@ -28,7 +28,7 @@ public class ExpressionArabicClass extends Exception {
                 }
             }
         } catch(IndexOutOfBoundsException e){
-            throw new IndexOutOfBoundsException("Пожалуйста запустите программу занова!");
+            throw new IndexOutOfBoundsException("Please restart the program!");
         }
 
         int size = numbersArray.size();

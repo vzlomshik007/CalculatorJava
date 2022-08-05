@@ -98,7 +98,7 @@ public class ExpressionRimClass extends Exception {
             resultAll = result;
 
         } catch(IndexOutOfBoundsException e){
-            throw new IndexOutOfBoundsException("Пожалуйста запустите программу занова!");
+            throw new IndexOutOfBoundsException("Please restart the program!");
         }
         return resultAll;
     }

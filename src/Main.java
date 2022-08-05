@@ -46,7 +46,7 @@ public class Main {
                         }
                     }
                     if (!flag) {
-                        System.err.println("Неправильный формат! Пишите только арабские или римские(от 1 до 10) цифры с пробелами!");
+                        System.err.println("Wrong format! Write only Arabic or Roman (from 1 to 10) numbers with spaces!");
                     }
                 }
             }
@@ -57,9 +57,9 @@ public class Main {
         } else if (RimNumbersArray.isEmpty()) {
             result = ExpressionArabicClass.ExpressionArabicNumber(numbersArray, textArray);
         } else if (numbersArray.isEmpty() && RimNumbersArray.isEmpty()) {
-            System.out.println("Консоль пустой! Пишите арабские или римские(от 1 до 10) цифры с пробелами!");
+            System.out.println("The console is empty! Write Arabic or Roman (from 1 to 10) numbers with spaces!");
         } else {
-            throw new DifferentNumberException("Неправильный формат ввода! Не совпадает данные цифры! Пишите только арабские или римские(от 1 до 10) цифры с пробелами!");
+            throw new DifferentNumberException("Incorrect input format! These figures do not match! Write only Arabic or Roman (from 1 to 10) numbers with spaces!");
         }
 
         return result;
